@@ -12,4 +12,9 @@ import (
 func main() {
     fmt.Println("🚀 Meu primeiro projeto em Go com estrutura de mercado!")
     hello.SayHello()
+    
+	for i := 0; i < 10; i++ {
+		fmt.Printf("%d ", Fibonacci(i))
+	}
+    
 }
