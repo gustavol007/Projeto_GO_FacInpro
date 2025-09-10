@@ -1,4 +1,4 @@
-package hello
+package fibonacci
 
 func Fibonacci(n int) int {
 	if n <= 1 {
