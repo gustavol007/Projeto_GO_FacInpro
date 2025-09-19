@@ -8,9 +8,7 @@ import (
 	"time"
 
 	"github.com/seu-usuario/meu-projeto-go/internal/jogosequencia"
-
 )
-
 
 func main() {
 	rand.Seed(time.Now().UnixNano())
